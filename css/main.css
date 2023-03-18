@@ -1,0 +1,171 @@
+:root{
+    --dark-color:#ffc800;
+    --bg: rgb(248, 249, 250);
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/* start header styling */
+#section1 {
+    height:120vh;
+    background-image:url(../img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar img {
+    width:15%
+}
+nav a {
+    font-size: 1.1rem;
+}
+nav a:hover , 
+nav a:focus , 
+nav a:active{
+    color: var(--dark-color) !important
+}
+nav .search {
+    border-color:  var(--dark-color) !important
+}
+nav .search svg {
+    color:var(--dark-color) ;
+    
+}
+.active-class{
+    color:var(--dark-color)  !important ;
+}
+.header-content{
+   top:60%;
+   left:50%;
+   transform: translate(-50%,-50%);
+}
+.header-content p{
+    font-size: 3rem;
+}
+.header-content h1{
+    font-size: 4.5rem;
+}
+.header-content .main-btn{
+    background-color: var(--dark-color);
+    font-weight: 500;
+}
+@media screen and (max-width: 768px){
+    .header-content p{
+     font-size: 2rem;
+    }
+    .header-content h1{
+        font-size: 2.5rem;
+     
+    }
+}
+/*end header styling */
+/* start services styling */
+.services h2 ,
+.portifolio h2, 
+.about h2 , 
+.team h2,
+.contact h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.services .content span{
+    font-size: 4rem;  
+   background-color: var(--dark-color);
+}
+
+/* end services styling */
+/* start portifolio styling */
+ .portifolio{
+    background-color: var(--bg);
+ }
+.portifolio .overlay{
+top:0;
+right: 0;
+background-color:var(--dark-color);
+opacity:0;
+transition: .5s;
+cursor: pointer;
+z-index: 1;
+
+ }
+.portifolio .card-img:hover .overlay{
+opacity:.8;
+ }
+ .portifolio .overlay svg{
+font-size: 3rem;
+ }
+
+/* end portifolio styling */
+/* start team styling */
+.team{
+background-color: var(--bg);
+}
+.team svg  , footer svg{
+font-size: 1.2rem;
+cursor: pointer;
+transition: .5s;
+}
+.team svg:hover  , footer svg:hover{
+color:var(--dark-color)
+}
+@media screen and (max-width: 768px){
+    .team h2{
+        font-size: 1.6rem;
+    }
+}
+/* end team styling */
+/* start contact styling */
+.contact{
+background-color: #212529;
+background-image: url(../img/map-image.png);
+background-position: center;
+background-size: cover;
+}
+::placeholder{
+    font-weight: 700;
+}
+.contact textarea{
+    resize: none;
+}
+.contact button {
+    background-color: var(--dark-color);
+    font-size: 1.2rem;
+}
+/* end contact styling */
+ /* start about styling */
+ .content-first{
+    right:13.5%
+}
+.content-second{
+    left:13.5%;
+}
+.content-third{
+    right:13.5%;
+}
+.content-forth{
+    left:13.5%;
+}
+.about-content  img {
+    width:25%;
+}
+.content-first , .content-second ,.content-third ,.content-forth{
+    width:50%
+}
+@media screen and (max-width: 768px){
+    .content-first , .content-second ,.content-third ,.content-forth{
+        width:100%;
+    }
+    .content-first{
+        right:0
+    }
+    .content-second{
+        left:0%;
+    }
+    .content-third{
+        right:0%;
+    }
+    .content-forth{
+        left:0%;
+    }
+}
+ /* end about styling */

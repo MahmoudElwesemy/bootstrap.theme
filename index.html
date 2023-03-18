@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" href="img/images.jfif">
+    <title>Bootstrap</title>
+</head>
+<body>
+<!-- start header section -->
+  <section id="section1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <div class="container p-2">
+         <img src="img/navbar-logo.svg" alt="">
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> </span>
+          <span >menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link  text-white text-uppercase "href='#section1' >Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white  text-uppercase" href="#section2">services</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white  text-uppercase" href="#section3">portifolio</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white   text-uppercase" href="#section4">about</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white  text-uppercase" href="#section5">team</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white  text-uppercase" href="#section6">contact</a>
+            </li>
+          </ul>
+          <div class="search  d-none d-lg-block border-start border-2  ">
+            <i class="fa-solid fa-magnifying-glass text-white px-2 "></i>
+          </div>
+         </div>
+      </div>
+    </nav>
+      <div class="header-content position-absolute w-100 text-center text-white">
+        <p>Welcome To Our Studio!</p>
+        <h1 class="p-3">
+            IT'S NICE TO MEET YOU
+        </h1>
+        <button class="btn main-btn px-4 py-3 text-white">TELL ME MORE</button>
+
+      </div>
+  </section>
+<!-- end header section -->
+<!-- start services section -->
+<section class=" services p-3 p-md-5 " id="section2">
+  <div class="container py-5">
+    <div class="service-header text-center w-100 m-auto p-2">
+      <h2 class="pb-3 text-uppercase ">services</h2>
+      <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, eaque.</p>
+    </div>
+    <div class="service-content py-4">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="content text-center p-3">
+            <span class="text-center rounded-circle p-4 text-white">
+               <i class="fas fa-shopping-cart "></i>
+            </span>
+            <h3 class="p-4 text-capitalize"> e-commerce </h3>
+            <p  class="text-black-50"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur hic porro nemo iusto ab vitae ipsa quibusdam voluptatibus velit.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content text-center p-3">
+            <span class="text-center rounded-circle p-4 text-white" >
+              <i class="fas fa-laptop"></i>
+            </span>
+            <h3 class="p-4 text-capitalize"> responsive design</h3>
+            <p class="text-black-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet dicta vitae maxime doloribus quod. Molestiae dolorem aperiam quia iste aut.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content text-center p-3">
+            <span class="text-center rounded-circle p-4 text-white">
+             <i class="fas fa-lock "></i> 
+            </span>
+            <h3 class="p-4 text-capitalize"> web security</h3>
+            <p  class="text-black-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit voluptas nam reiciendis et distinctio quia in aspernatur quod totam delectus!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end services section -->
+<!-- start portifolio section -->
+<section class="portifolio p-3 p-md-5 position-relative " id="section3">                                                     
+  <div class="container  py-4">
+    <div class="portifolio-header  text-center w-100 m-auto p-4">
+      <h2 class="pb-3 text-uppercase  ">portifolio</h2>
+      <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, eaque.</p>
+    </div>
+  </div>
+  <div class="portifolio-content p-md-2">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="portifolio-card p-2">
+          <div class="card-img position-relative">
+            <img src="img/portfolio/1.jpg" alt="" class="w-100">
+            <div class="overlay position-absolute w-100 h-100 d-flex justify-content-center align-items-center text-white " data-src="img/portfolio/1.jpg">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="card-content text-center bg-white p-4 text-capitalize">
+            <h4 >threads</h4>
+            <p class="text-black-50">illustration</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="portifolio-card p-2">
+          <div class="card-img position-relative">
+            <img src="img/portfolio/2.jpg" alt="" class="w-100">
+            <div class="overlay position-absolute w-100 h-100 d-flex justify-content-center align-items-center text-white " data-src="img/portfolio/2.jpg">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="card-content text-center bg-white p-4 text-capitalize">
+            <h4 >explore</h4>
+            <p class="text-black-50">graphic designer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="portifolio-card p-2">
+          <div class="card-img position-relative">
+            <img src="img/portfolio/3.jpg" alt="" class="w-100">
+            <div class="overlay position-absolute w-100 h-100 d-flex justify-content-center align-items-center text-white  " data-src="img/portfolio/3.jpg">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="card-content text-center bg-white p-4 text-capitalize">
+            <h4>finish</h4>
+            <p class="text-black-50">identity</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="portifolio-card p-2">
+          <div class="card-img position-relative">
+            <img src="img/portfolio/4.jpg" alt="" class="w-100">
+            <div class="overlay position-absolute w-100 h-100 d-flex justify-content-center align-items-center text-white  " data-src="img/portfolio/4.jpg">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="card-content text-center bg-white p-4 text-capitalize">
+            <h4 >lines</h4>
+            <p class="text-black-50">branding</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="portifolio-card p-2">
+          <div class="card-img position-relative">
+            <img src="img/portfolio/5.jpg" alt="" class="w-100">
+            <div class="overlay position-absolute w-100 h-100 d-flex justify-content-center align-items-center text-white  " data-src="img/portfolio/5.jpg">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="card-content text-center bg-white p-4 text-capitalize">
+            <h4 >southwest</h4>
+            <p class="text-black-50">web design</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="portifolio-card p-2">
+          <div class="card-img position-relative">
+            <img src="img/portfolio/6.jpg" alt="" class="w-100">
+            <div class="overlay position-absolute w-100 h-100 d-flex justify-content-center align-items-center text-white  " data-src="img/portfolio/6.jpg">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="card-content text-center bg-white p-4 text-capitalize">
+            <h4>window</h4>
+            <p class="text-black-50">photography</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- end portifolio section -->
+<!-- start about section -->
+<section class="about p-3 p-md-5 " id="section4" >
+  <div class="container   p-md-2 b">
+    <div class="about-header text-center w-100 m-auto p-4">
+      <h2 class="pb-3 text-uppercase ">About</h2>
+      <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, eaque.</p>
+    </div>
+    <div class="about-content  w-100">
+      <div class="content-first  m-auto d-flex  justify-content-between p-2   position-relative">
+         <img src="img/about/1.jpg" class=" order-2 border border-5 mx-3 d-none d-md-block " alt="">
+
+         <div class="content-details  text-end order-1 ">
+          <h4>2009-2011</h4>
+          <h5>Our Humble Beginnings</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint vero similique esse molestiae? Modi quas adipisci eos culpa dolores similique.</p>
+         </div>
+      </div>
+      <div class="content-second  m-auto d-flex  justify-content-between p-2  position-relative " >
+        <img src="img/about/2.jpg" class="  order-1 border border-5  mx-3 d-none d-md-block" alt="">
+
+        <div class="content-details   text-start order-2">
+         <h4>2009-2011</h4>
+         <h5>Our Humble Beginnings</h5>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint vero similique esse molestiae? Modi quas adipisci eos culpa dolores similique, non accusantium.</p>
+        </div>
+     </div>
+     <div class="content-third  m-auto d-flex  justify-content-between p-2   position-relative">
+      <img src="img/about/3.jpg" class=" order-2 border border-5  mx-3  d-none d-md-block " alt="">
+
+      <div class="content-details   text-end order-1 ">
+       <h4>2009-2011</h4>
+       <h5>Our Humble Beginnings</h5>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint vero similique esse molestiae? Modi quas adipisci eos culpa dolores similique.</p>
+      </div>
+   </div>
+   <div class="content-forth  m-auto d-flex  justify-content-between p-2   position-relative">
+    <img src="img/about/4.jpg" class="  order-1 border border-5  mx-3 d-none d-md-block" alt="">
+
+    <div class="content-details   text-start order-2 ">
+     <h4>2009-2011</h4>
+     <h5>Our Humble Beginnings</h5>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint vero similique esse molestiae? Modi quas adipisci eos culpa dolores similique, non accusantium.</p>
+    </div>
+ </div>
+    </div>
+    </div>
+</section>
+<!-- end about section -->
+<!-- start team section -->
+<section class="team p-3 p-md-5" id="section5">
+  <div class="container">
+  <div class="team-header text-center  m-auto p-4 p-md-2">
+    <h2 class="pb-3 text-uppercase ">OUR AMAZING TEAM</h2>
+    <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, eaque.</p>
+  </div>
+  <div class="team-content">
+     <div class="row">
+      <div class="col-md-4">
+        <div class="content text-center p-4">
+          <img src="img/team/1.jpg" alt="" class="w-75 rounded-circle border border-5 ">
+          <div class="content-header pt-2">
+            <h3 class="fw-bolder">
+              Parveen Anand
+            </h3>
+            <p class="text-black-50 text-capitalize">
+              Lead Designer
+            </p>
+            <div class="content-icon">
+              <i class="fa-brands fa-facebook  px-3"></i>
+              <i class="fa-brands fa-twitter   px-3"></i>
+              <i class="fa-brands fa-linkedin  px-3"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content text-center p-4">
+          <img src="img/team/2.jpg" alt="" class="w-75 rounded-circle border border-5 ">
+          <div class="content-header pt-2">
+            <h3 class="fw-bolder">
+              Diana Petersen
+            </h3>
+            <p class="text-black-50 text-capitalize">
+              Lead Designer
+            </p>
+            <div class="content-icon">
+              <i class="fa-brands fa-facebook  px-3"></i>
+              <i class="fa-brands fa-twitter   px-3"></i>
+              <i class="fa-brands fa-linkedin  px-3"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content text-center p-4">
+          <img src="img/team/3.jpg" alt="" class="w-75 rounded-circle border border-5 ">
+          <div class="content-header pt-2">
+            <h3 class="fw-bolder">
+              Larry Parker
+            </h3>
+            <p class="text-black-50 text-capitalize">
+              Lead Designer
+            </p>
+            <div class="content-icon">
+              <i class="fa-brands fa-facebook  px-3"></i>
+              <i class="fa-brands fa-twitter   px-3"></i>
+              <i class="fa-brands fa-linkedin  px-3"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>    
+  <div class="team-footer  text-center">
+    <div class="content w-100 m-auto">
+      <p class="text-black-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eligendi neque dolores autem aperiam quaerat eaque similique! Aut, tenetur, quasi ab voluptates debitis possimus neque, deserunt saepe dolore non quaerat.</p>
+    </div>
+  </div>
+  </div>
+
+</section>
+<!-- end team section -->
+<!-- start company section -->
+<div class="companies p-3 p-md-5 ">
+  <div class="container p-4">
+    <div class="row text-center align-items-center">
+      <div class="col-md-3 col-6 ">
+          <img src="img/logos/facebook.svg"  class="w-75 p-2" alt="">
+      </div>
+      <div class="col-md-3 col-6 ">
+        <img src="img/logos/google.svg"  class="w-75 p-2" alt="">
+      </div>
+      <div class="col-md-3  col-6 ">
+        <img src="img/logos/ibm.svg"  class="w-75 p-2" alt="">
+      </div>
+      <div class="col-md-3 col-6 ">
+        <img src="img/logos/microsoft.svg"   class="w-75 p-2" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end company section -->
+<!-- start contact section -->
+<section class="contact p- p-md-5" id="section6">
+  <div class="container p-4">
+    <div class="contact-header text-center w-100 m-auto p-4">
+      <h2 class="pb-3 text-uppercase  text-white">contact us</h2>
+      <p class="text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, eaque.</p>
+    </div>
+    <div class="row ">
+      <div class="col-md-6 p-3">
+           <input type="text" placeholder="Your Name" class="w-100  form-control my-md-5 my-3 p-3" required>
+           <input type="email" placeholder="Your Email" class="w-100  form-control my-md-5 my-3  p-3">
+           <input type="password" name="" id="" placeholder="Your Password" class="w-100  form-control my-md-5 my-3 p-3">
+      </div>
+      <div class="col-md-6 p-3 ">
+        <textarea name="" id="" cols="30" rows="10" class="w-100  form-control  my-md-5 my-3 p-3" placeholder="Your Comment" ></textarea>
+      </div>
+      <div class="button text-center">
+        <button class="btn px-5 py-4 text-white text-capitalize"> send message</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end contact section -->
+<!-- start footer section -->
+<footer  class="p-3">
+  <div class="container p-3">
+    <div class="row text-center align-items-center">
+      <div class="col-md-4 ">
+         <h6 class="text-black-50">Copyright © Your Website 2022</h6>
+      </div>
+      <div class="col-md-4 ">
+        <div class="content-icon">
+          <i class="fa-brands fa-facebook fa-1x p-2"></i>
+          <i class="fa-brands fa-twitter  fa-1x p-2 "></i>
+          <i class="fa-brands fa-linkedin fa-1x  p-2"></i>
+        </div>
+      </div>
+      <div class="col-md-4  ">
+        <h6 class="text-black-50">Privacy Policy Terms of Use</h6>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer section -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
